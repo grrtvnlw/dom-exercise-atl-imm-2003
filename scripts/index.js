@@ -9,7 +9,7 @@ const navContainer = document.querySelector('.js-link-container')
 
 navContainer.appendChild(navLinks);
 
-addresses.forEach(function (address) {
+addresses.forEach((address) => {
     const listItem = document.createElement('li');
     const link = document.createElement('a');
     link.setAttribute('href', address);
