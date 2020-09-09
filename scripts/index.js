@@ -13,6 +13,7 @@ addresses.forEach(function (address) {
     const listItem = document.createElement('li');
     const link = document.createElement('a');
     link.setAttribute('href', address);
+    link.setAttribute('target', '_blank')
     link.textContent = address;
     listItem.appendChild(link);
     navLinks.appendChild(listItem);
